@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "big-burger-mod:burger_item"
+        }
+    },
+    "result": {
+        "item": "big-burger-mod:big_burger_block",
+        "count": 1
+    }
+}

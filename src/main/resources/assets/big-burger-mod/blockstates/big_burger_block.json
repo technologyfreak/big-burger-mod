@@ -1,0 +1,25 @@
+{
+    "variants": {
+        "bites=0": {
+            "model": "big-burger-mod:block/big_burger_block"
+        },
+        "bites=1": {
+            "model": "big-burger-mod:block/big_burger_block_1"
+        },
+        "bites=2": {
+            "model": "big-burger-mod:block/big_burger_block_2"
+        },
+        "bites=3": {
+            "model": "big-burger-mod:block/big_burger_block_3"
+        },
+        "bites=4": {
+            "model": "big-burger-mod:block/big_burger_block_4"
+        },
+        "bites=5": {
+            "model": "big-burger-mod:block/big_burger_block_5"
+        },
+        "bites=6": {
+            "model": "big-burger-mod:block/big_burger_block_6"
+        }
+    }
+}

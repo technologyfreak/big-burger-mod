@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "big-burger-mod",
+	"version": "${version}",
+	"name": "Big Burger Mod",
+	"description": "Adds variously large burgers to the game.",
+	"authors": [
+		"technologyfreak"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/technologyfreak/big-burger-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/big-burger-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"technologyfreak.bigburger.BigBurgerMod"
+		],
+		"client": [
+			"technologyfreak.bigburger.BigBurgerModClient"
+		],
+		"fabric-datagen": [
+			"technologyfreak.bigburger.BigBurgerModDataGenerator"
+		]
+	},
+	"mixins": [
+		"big-burger-mod.mixins.json",
+		{
+			"config": "big-burger-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
