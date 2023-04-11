@@ -2,9 +2,9 @@
 A mod for Minecraft using the Fabric modloader and it's APIs to add varyingly large burgers to the game.
 
 ## Requirements
-Minecraft version 1.19.2
-Fabric version: 0.76.0
-Fabric Loader version: >=0.14.19
+- Minecraft version 1.19.2
+- Fabric version: 0.76.0
+- Fabric Loader version: >=0.14.19
 
 
 ## Usage
