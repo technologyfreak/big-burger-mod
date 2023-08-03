@@ -67,7 +67,7 @@ public class BigBurgerBlock extends Block {
             return ActionResult.PASS;
         }
         player.incrementStat(Stats.EAT_CAKE_SLICE);
-        player.getHungerManager().add(25, 33.6f);
+        player.getHungerManager().add(8, 1.75f);
         int i = state.get(BITES);
         world.emitGameEvent((Entity) player, GameEvent.EAT, pos);
         if (i < 6) {
